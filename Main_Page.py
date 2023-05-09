@@ -14,7 +14,7 @@ st.subheader("Tanya apa saja ke Fayans")
 col1, col2 = st.columns(2)
 
 with col1:
-  image1 = Image.open('Resource/image/Main/Fayans1.png')
+  image1 = Image.open('Resource/image/Main/Fayans2.png')
   st.image(image1)
 with col2:
     opsi1 = st.button("Asal mula nama Fayans dari mana?")
