@@ -22,7 +22,7 @@ with tab_1:
         tombol_2 = st.button("Hitung molalitas")
         if tombol_2:
             nilai_molalitas2 = Massa_zatterlarut*1000/(Molekulrelatif*massa_zatpelarut1)
-            st.success(f"nilai normalitas adalah {nilai_molalita_2}")
+            st.success(f"nilai normalitas adalah {nilai_molalitas_2}")
    
 with tab_2:
     option = st.selectbox(
